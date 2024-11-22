@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms Project</title>
+</head>
+<body>
+  <div class="Container" style="width: 380px; margin: 0 auto; border: 1px solid #ccc; padding: 20px; border-radius: 10px; line-height: 13px;">
+
+      <!-- Personal Information Section -->
+      <h3>Personal Information</h3>
+
+      <div style="width: 350px;" align="right">
+          <label>First Name:
+              <input type="text" name="firstname" placeholder="Enter Name" maxlength="30" size="25">
+          </label>
+          <br><br>
+
+          <label>Last Name:
+              <input type="text" name="lastname" placeholder="Enter Name" maxlength="30" size="25">
+          </label>
+          <br><br>
+
+          <label >Date of Birth:
+              <select name="Month" style="width: 65px; padding: 3px;">
+                  <option value="Month">Month</option>
+              </select>
+              <select name="day" style="width: 65px; padding: 3px;">
+                  <option value="day">Day</option>
+              </select>
+              <select name="year" style="width: 65px; padding: 3px;">
+                  <option value="year">Year</option>
+              </select>
+          </label>
+          <br><br>
+
+          <label>Gender:
+              <select name="gender" style="width: 200px; padding: 3px;">
+                  <option value="choose a gender">Choose A Gender</option>
+              </select>
+          </label>
+
+      </div>
+
+      <!-- Account Information Section -->
+      <h3>Acount Information</h3>
+
+      <div style="width: 350px;" align="right">
+          <label>Email:
+              <input type="email" name="email" placeholder="Enter Email" size="25">
+          </label>
+          <br><br>
+
+          <label>Re-Type Email:
+              <input type="email" name="re-type email" placeholder="Enter Email" size="25">
+          </label>
+          <br><br>
+
+          <label>Password:
+              <input type="password" name="password" placeholder="***********" size="25">
+          </label>
+          <br><br>
+
+          <label>Re-Type Password:
+              <input type="password" name="re-type password" placeholder="***********" size="25">
+          </label>
+          <br><br>
+
+          <label>Security Question:
+              <select name="Question" style="width: 203px; padding: 3px;">
+                  <option value="Choose a security question">Choose a security question</option>
+              </select>
+          </label>
+          <br><br>
+
+          <label>Security Answer:
+              <input type="text" name="security answer" size="25">
+          </label>
+
+      </div>
+
+      <!-- Contact Information Section -->
+      <h3>Contact Information</h3>
+
+      <div style="width: 350px;" align="right">
+
+          <label>Address:
+              <input type="text" name="address" size="25">
+          </label>
+          <br><br>
+
+          <label>City:
+              <input type="text" name="city" size="25">
+          </label>
+          <br><br>
+
+          <label>State:
+              <select name="state" style="width: 203px; padding: 3px;">
+                  <option value="choose a state">Choose a State</option>
+              </select>
+          </label>
+          <br><br>
+
+          <label>Zip Code:
+              <input type="text" name="zipcode" size="9">
+              <input type="text" size="10" placeholder="Optional">
+          </label>
+          <br><br>
+
+          <label>Phone:
+              <input type="number" name="tel" size="15">
+          </label>
+
+          <select style="width: 70px; padding: 3px;">
+              <option value="Mobile">Mobile</option>
+          </select>
+          
+      </div>
+  </div>
+</body>
+</html>
+
